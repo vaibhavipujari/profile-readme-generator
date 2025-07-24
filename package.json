@@ -29,9 +29,9 @@
   "homepage": "https://profile-readme-generator.com",
   "private": true,
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "eslint src",
     "test": "jest",
     "analyze": "ANALYZE=true yarn build"
